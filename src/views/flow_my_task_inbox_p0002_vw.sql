@@ -81,5 +81,5 @@ select sbfl_id
                     and prov.prov_var_vc2 = SYS_CONTEXT('APEX$SESSION','APP_USER')
                     and prov.prov_var_name = 'Next_Approver')
         )
-with read only
-;
+with read only;
+/

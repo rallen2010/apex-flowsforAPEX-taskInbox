@@ -40,5 +40,5 @@ as
     where sbfl_status = 'running'
       and roles.user_name = SYS_CONTEXT('APEX$SESSION','APP_USER')
       and roles.workspace_id = SYS_CONTEXT('APEX$SESSION','WORKSPACE_ID')
-with read only
-;
+with read only;
+/

@@ -55,3 +55,4 @@ create or replace package body flow_my_task_inbox_app as
   end process_action;
 
 end flow_my_task_inbox_app;
+/

@@ -31,5 +31,5 @@ create or replace view flow_my_task_inbox_my_processes as
     and prov.prov_var_type = 'VARCHAR2'
     and prov.prov_var_name = 'Originator'
     and prov.prov_var_vc2 = SYS_CONTEXT('APEX$SESSION','APP_USER')
-with read only
-;
+with read only;
+/

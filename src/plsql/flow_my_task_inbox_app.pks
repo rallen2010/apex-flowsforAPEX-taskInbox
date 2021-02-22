@@ -8,3 +8,4 @@ create or replace package flow_my_task_inbox_app as
   );
 
 end flow_my_task_inbox_app;
+/

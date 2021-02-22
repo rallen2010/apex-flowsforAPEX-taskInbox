@@ -4,8 +4,7 @@ set concat '.'
 PROMPT >> Database Objects Installation
 PROMPT >> =============================
 
-PROMPT >> Installing Tables
-@ddl/install_tables.sql
+PROMPT >> No Tables to Install
 
 PROMPT >> Installing Task Inbox Objects
 PROMPT >> =============================
