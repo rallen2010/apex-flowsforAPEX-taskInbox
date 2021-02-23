@@ -7,7 +7,8 @@ create or replace view flow_my_task_inbox_my_processes as
       , sbfl.sbfl_reservation
       , sbfl.sbfl_last_update
       , sbfl.sbfl_status
-      , sbfl.sbfl_prcs_init_ts
+      -- , sbfl.sbfl_prcs_init_ts for F4A v5.1, swapped for null in 5.0.1
+      , null as sbfl_prcs_init_ts
    from flow_task_inbox_vw sbfl
    join flow_process_variables prov
      on prov.prov_prcs_id = sbfl.sbfl_prcs_id
