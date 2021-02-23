@@ -39,3 +39,5 @@ As part of initializing a process instance, the application would set the 'Origi
 Feel free to customise these role names or add new 'special' lanes, as appropriate to your organization.  You will need to modify the roles in the APEX app, as well as in the underlying database views shipped with Flows for APEX My Task Inbox.
 
 
+### Project
+(c) Flowquest Consulting Limited, 2021
